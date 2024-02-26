@@ -10,12 +10,36 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <script src="src/app.js" defer></script>
   </head>
   <body>
     <div class="container-fluid text-center">
       <h1>OMG! You will not believe me but...</h1>
       <h1 id="excuse"></h1>
+      <button class="btn btn-primary" onclick="generateExcuse()">
+        New excuse!
+      </button>
+
+      <img
+        id="pic"
+        src="https://i.pinimg.com/564x/9e/bf/a9/9ebfa99ee766bd67f6d3101778748504.jpg"
+        alt=""
+      />
     </div>
   </body>
 </html>
